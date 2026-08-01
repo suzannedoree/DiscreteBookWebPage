@@ -5,33 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About the Author - Active Discrete Mathematics</title>
     <style>
-        h1 {color: #B22222;}
-        h2 {color: #FF6F00;}
-        h3 {color: #0263c1;}
-        a {color: #07953c;font-size: 1.17rem;text-decoration: none;}
-        h1, h2, h3 {margin-bottom: 20px;}
-        header {position: relative;}       
-        nav {background-color: #FFFFFF; display: flex;justify-content: space-around; align-items: center;
-             padding: 12px 20px; margin-bottom: 20px; border-radius: 6px;}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #2b7a4b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .author-container {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .author-photo-container {
+            flex-shrink: 0;
+        }
+        .author-photo {
+            width: 220px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .author-bio {
+            max-width: 650px;
+            line-height: 1.6;
+        }
+        .author-links {
+            margin-top: 15px;
+        }
+        .author-links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #1a0dab;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .author-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
-    <header>
-        <nav>
-            <a href="https://suzannedoree.github.io/DiscreteBookWebPage/index.html">Home</a> | 
-            <a href="https://suzannedoree.github.io/activediscreteTEST0312826/root-1-2-2.html">Textbook</a> | 
-            <a href="https://suzannedoree.github.io/DiscreteBookWebPage/discretestudents.html">For Students</a> | 
-            <a href="https://suzannedoree.github.io/DiscreteBookWebPage/discreteinstructors.html">For Instructors</a> | 
-            <a href="https://suzannedoree.github.io/DiscreteBookWebPage/author.html">About the Author</a>
-        </nav>
-        <h1>Active Discrete Mathematics</h1>
-    </header>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="https://suzannedoree.github.io/activediscreteTEST0312826/root-1-2-2.html">Textbook</a> | 
+        <a href="students.html">For Students</a> | 
+        <a href="instructors.html">For Instructors</a> | 
+        <a href="author.html">About the Author</a>
+    </nav>
 
-    <main>
-        <h2>About the Author</h2>
-        <p>Biography and background information about the author will be added here.</p>
-    </main>
+    <h1 style="color: #900C3F;">Active Discrete Mathematics</h1>
+    <h2 style="color: #FF5733;">About the Author</h2>
+
+    <div class="author-container">
+        <!-- Photo Section -->
+        <div class="author-photo-container">
+            <!-- Upload your photo to your GitHub repo named 'suzanne-doree.jpg' -->
+            <img src="suzanne-doree.jpg" alt="Dr. Suzanne Dorée" class="author-photo">
+        </div>
+
+        <!-- Bio and Links Section -->
+        <div class="author-bio">
+            <h3>Dr. Suzanne Dorée</h3>
+            <p>
+                Dr. Suzanne Dorée is a Professor of Mathematics at Augsburg University in Minneapolis, Minnesota.
+                Biography and background information about the author will be added here.
+            </p>
+
+            <div class="author-links">
+                <a href="https://www.augsburg.edu/" target="_blank" rel="noopener">Augsburg University Faculty Profile</a>
+                <a href="https://www.linkedin.com/in/suzannedoree/" target="_blank" rel="noopener">LinkedIn Profile</a>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
