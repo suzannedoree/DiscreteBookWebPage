@@ -13,18 +13,18 @@
   <line x1="0.95" y1="0" x2="0" y2="1.67" class="edge" />   <!-- A to E -->
 
   <!-- Vertices (Change hex codes in fill="..." as desired) -->
-  <!-- Vertex A (Black) -->
-  <circle cx="0.95" cy="0" r="0.2" class="vertex" fill="#B22222" />
+  <!-- Vertex A (Green) -->
+  <circle cx="0.95" cy="0" r="0.2" class="vertex" fill="#07953c" />
   
-  <!-- Vertex B (White / Uncolored) -->
+  <!-- Vertex B (Blue) -->
   <circle cx="3.15" cy="0" r="0.2" class="vertex" fill="#0263c1" />
   
-  <!-- Vertex C (Gray) -->
+  <!-- Vertex C (Orange) -->
   <circle cx="4" cy="1.67" r="0.2" class="vertex" fill="#FF6F00" />
   
-  <!-- Vertex D (Black) -->
-  <circle cx="2" cy="3" r="0.2" class="vertex" fill="#B22222" />
+  <!-- Vertex D (Green) -->
+  <circle cx="2" cy="3" r="0.2" class="vertex" fill="#07953c" />
   
-  <!-- Vertex E (White / Uncolored) -->
+  <!-- Vertex E (Blue -->
   <circle cx="0" cy="1.67" r="0.2" class="vertex" fill="#0263c1" />
 </svg>
