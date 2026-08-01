@@ -23,12 +23,27 @@
         .author-photo-container {
             flex-shrink: 0;
         }
-        .author-photo {
-            width: 220px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
+.author-photo-container {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Or 'center' if you want the links centered under the photo */
+}
+
+.author-links {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column; /* Stacks the links vertically */
+  gap: 10px; /* Space between the stacked links */
+}
+
+.author-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
         .author-bio {
             max-width: 650px;
             line-height: 1.6;
