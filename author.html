@@ -13,44 +13,14 @@
         header {position: relative;}       
         nav {background-color: #FFFFFF; display: flex;justify-content: space-around; align-items: center;
              padding: 12px 20px; margin-bottom: 20px; border-radius: 6px;}
-        .author-container {
-            display: flex;
-            gap: 30px;
-            align-items: flex-start;
-            margin-top: 20px;
-            flex-wrap: wrap;
-        }
-        .author-photo-container {
-            flex-shrink: 0;
-        }
-.author-photo-container {
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Or 'center' if you want the links centered under the photo */
-}
+        .author-container {display: flex;gap: 30px;align-items: flex-start;margin-top: 20px;flex-wrap: wrap;}
+        .author-photo-container {flex-shrink: 0;display: flex;flex-direction: column;align-items: center; }
 
-.author-links {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column; /* Stacks the links vertically */
-  gap: 10px; /* Space between the stacked links */
-}
+        .author-links {margin-top: 15px;display: flex;flex-direction: column; gap: 10px; }
 
-.author-links a {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-weight: bold;
-  text-decoration: none;
-}
-        .author-bio {
-            max-width: 650px;
-            line-height: 1.6;
-        }
-        .author-links {
-            margin-top: 15px;
-        }
+        .author-links a {display: inline-flex;align-items: center;gap: 6px;font-weight: bold;text-decoration: none;}
+        .author-bio {max-width: 650px;line-height: 1.6;}
+        .author-links {margin-top: 15px;}
     </style>
 </head>
 <body>
