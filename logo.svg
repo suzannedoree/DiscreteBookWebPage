@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -0.5 6 4" width="100" height="80">
+  <style>
+    .edge { stroke: #333333; stroke-width: 0.08; stroke-linecap: round; }
+    .vertex { stroke: #000000; stroke-width: 0.06; }
+  </style>
+
+  <!-- Edges -->
+  <line x1="3.15" y1="0" x2="2" y2="3" class="edge" />      <!-- B to D -->
+  <line x1="2" y1="3" x2="4" y2="1.67" class="edge" />     <!-- D to C -->
+  <line x1="4" y1="1.67" x2="0.95" y2="0" class="edge" />   <!-- C to A -->
+  <line x1="0.95" y1="0" x2="3.15" y2="0" class="edge" />   <!-- A to B -->
+  <line x1="3.15" y1="0" x2="4" y2="1.67" class="edge" />   <!-- B to C -->
+  <line x1="0.95" y1="0" x2="0" y2="1.67" class="edge" />   <!-- A to E -->
+
+  <!-- Vertices (Change hex codes in fill="..." as desired) -->
+  <!-- Vertex A (Black) -->
+  <circle cx="0.95" cy="0" r="0.2" class="vertex" fill="#000000" />
+  
+  <!-- Vertex B (White / Uncolored) -->
+  <circle cx="3.15" cy="0" r="0.2" class="vertex" fill="#FFFFFF" />
+  
+  <!-- Vertex C (Gray) -->
+  <circle cx="4" cy="1.67" r="0.2" class="vertex" fill="#808080" />
+  
+  <!-- Vertex D (Black) -->
+  <circle cx="2" cy="3" r="0.2" class="vertex" fill="#000000" />
+  
+  <!-- Vertex E (White / Uncolored) -->
+  <circle cx="0" cy="1.67" r="0.2" class="vertex" fill="#FFFFFF" />
+</svg>
