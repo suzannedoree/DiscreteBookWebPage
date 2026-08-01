@@ -36,68 +36,37 @@
     
     <h2>About the Author</h2>
     
-.content-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 30px;
-}
+<main class="content-container">
+  <!-- Left Side: Photo with Subtitle -->
+  <figure class="photo-card">
+    <img src="your-photo.jpg" alt="Dr. Suzanne (Su) Dorée">
+    <figcaption>Dr. Suzanne (Su) Dorée</figcaption>
+  </figure>
 
-/* Photo & Caption */
-.photo-card {
-  margin: 0;
-  text-align: center;
-  width: 250px; /* Adjust as needed */
-}
+  <!-- Right Side: Links & Toggable Bio -->
+  <div class="links-group">
+    
+    <!-- 1. Toggle for Author Bio -->
+    <details class="bio-toggle">
+      <summary>Author Bio</summary>
 
-.photo-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
-}
+      <p class="bio-text">
+        <strong>Dr. Suzanne (Su) Dorée</strong> is a Professor of Mathematics in the Department of Mathematics, Computer Science, and Data Science at Augsburg University in Minneapolis, Minnesota where she has taught since 1989...
+      </p>
+    </details>
 
-.photo-card figcaption {
-  margin-top: 8px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #333;
-}
+    <!-- 2. LinkedIn Link -->
+    <a href="https://www.linkedin.com" class="link-item">
+      <img src="linkedin-icon.png" alt="" class="link-icon"> LinkedIn
+    </a>
 
-/* Right-side items column */
-.links-group {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
+    <!-- 3. Augsburg University Link -->
+    <a href="https://www.augsburg.edu" class="link-item">
+      <img src="augsburg-icon.png" alt="" class="link-icon"> Augsburg University
+    </a>
 
-/* Collapsible Bio Styling */
-.bio-toggle summary {
-  font-weight: bold;
-  cursor: pointer;
-  color: #8B0000; /* Matching header color */
-  font-size: 1.1rem;
-}
-
-.bio-toggle p {
-  margin-top: 10px;
-  max-width: 600px;
-  line-height: 1.6;
-}
-
-/* Link alignment */
-.link-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #0066cc;
-}
-
-.link-icon {
-  width: 20px;
-  height: 20px;
-}
+  </div>
+</main>
 
 </body>
 </html>
