@@ -35,7 +35,68 @@
     </header>
     
     <h2>About the Author</h2>
-    
+
+<!-- Toggle with Bio Paragraph -->
+<details class="bio-toggle">
+  <summary>Author Bio</summary>
+  <p>
+    <strong>Dr. Suzanne (Su) Dorée</strong> is a Professor of Mathematics in the Department of Mathematics, Computer Science, and Data Science at Augsburg University in Minneapolis, Minnesota where she has taught since 1989. She enjoys teaching students at all stages of their mathematical development using pedagogies that support active, inclusive, and inquiry-based learning. In 2019, Dr. Dorée was recognized with a MAA Deborah and Franklin Tepper Haimo Award for Distinguished College or University Teaching of Mathematics. She earned her Ph.D. in Mathematics from University of Wisconsin and she currently dabbles in mathematical research on the state graphs of games, puzzles, and other dynamic processes. But, her primary scholarship is in teaching and learning. LongHere is how you can put your bio inside an **Author Bio** toggle right above your LinkedIn and Augsburg links, while adding the subtitle directly under your photo.
+
+---
+
+### Updated HTML Markup
+
+```html
+<main class="content-container">
+
+  <!-- Photo with Subtitle -->
+  <figure class="photo-card">
+    <img src="your-photo.jpg" alt="Dr. Suzanne (Su) Dorée">
+    <figcaption>Dr. Suzanne (Su) Dorée</figcaption>
+  </figure>
+
+  <!-- Links & Collapsible Bio Column -->
+  <div class="links-group">
+
+    <!-- 1. Author Bio Toggle -->
+    <details class="bio-toggle">
+      <summary>Author Bio</summary>
+      <div class="bio-text">
+        <p>
+                Dr. Suzanne (Su) Dorée is a Professor of Mathematics in the Department of Mathematics, Computer Science, and Data Science at 
+                Augsburg University in Minneapolis, Minnesota where she has taught since 1989. 
+                She enjoys teaching students at all stages of their mathematical development 
+                using pedagogies that support active, inclusive, and inquiry-based learning. 
+                In 2019, Dr. Dorée was recognized with a MAA Deborah and Franklin Tepper Haimo Award for 
+                Distinguished College or University Teaching of Mathematics. 
+                She earned her Ph.D. in Mathematics from University of Wisconsin and she currently 
+                dabbles in mathematical research on the state graphs of games, puzzles, and other dynamic processes. 
+                But, her primary scholarship is in teaching and learning. 
+                Long active in the MAA, she recently served as Co-chair of the Transforming Post-Secondary Education in Mathematics (TPSE-math) 
+                Teaching Strategies and Practices Subgroup. 
+                Dr. Dorée frequently runs professional development workshops for new mathematicians (and old) on active learning, 
+                teaching conjecturing (and other topics in inquiry-based learning), and mathematical speaking.
+             </p>
+      </div>
+    </details>
+
+    <!-- 2. LinkedIn -->
+    <a href="[https://www.linkedin.com](https://www.linkedin.com)" class="link-item">
+      <img src="linkedin-icon.png" alt="" class="link-icon"> LinkedIn
+    </a>
+
+    <!-- 3. Augsburg University -->
+    <a href="[https://www.augsburg.edu](https://www.augsburg.edu)" class="link-item">
+      <img src="augsburg-icon.png" alt="" class="link-icon"> Augsburg University
+    </a>
+
+  </div>
+
+</main>
+
+
+
+    <!-- OLD STARTS HERE
     <div class="author-container">
         <div class="author-photo-container">
             <img src="suzanne-doree.jpg" alt="Dr. Suzanne Dorée" class="author-photo">
@@ -76,6 +137,7 @@
 
         </div>
     </div>
+      -->
 
 </body>
 </html>
